@@ -34,7 +34,9 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "scripts": {},
+  "scripts": {
+    "install":"node-gyp rebuild --module_name=node_printer --module_path=../lib/native/"
+  },
   "licenses": [
     {
       "type": "BSD"
