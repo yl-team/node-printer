@@ -44,6 +44,6 @@
   ],
   "main": "./lib/printer",
   "dependencies": {
-    "node-pre-gyp": "^0.6.23"
+    "node-pre-gyp": "0.6.23"
   }
 }
