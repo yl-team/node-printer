@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git@github.com:yl-team/node-printer.git"
   },
-  "devDependencies": {
+  "xxdevDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-jshint": "^0.11.0",
@@ -35,7 +35,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "install":"node-gyp rebuild --module_name=node_printer --module_path=../lib/native/"
+      "install": "node-pre-gyp install --fallback-to-build"
   },
   "licenses": [
     {
